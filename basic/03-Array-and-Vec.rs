@@ -14,6 +14,11 @@ fn main(){
         println!("{}", x);
     }
 
+    println!("\nfor x in array.iter()");
+    for x in array.iter(){
+        println!("{}", x);
+    }
+
     // Vec 動態
     let mut _v1: Vec<i32> = Vec::new();
     let _v2: Vec<i32> = vec![];
