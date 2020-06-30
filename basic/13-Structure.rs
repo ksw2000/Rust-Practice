@@ -21,7 +21,7 @@ fn main(){
 
     let mut sueka = Person{
         name : String::from("Sueka"),
-        year : 2002,
+        year : 2003,
         month : 0,
         day : 0
     };
