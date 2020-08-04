@@ -12,6 +12,8 @@ fn main(){
     println!("{}", num3);
 
     //unsigned int
+    let u_num:u32 = 10;
+    println!("{}", u_num);
 
     //float
     let f = 3e8;
