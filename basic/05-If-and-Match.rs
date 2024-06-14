@@ -1,5 +1,5 @@
 fn main(){
-    // 基礎用法，跟 GO 類似
+    // 基礎用法，跟 Go 類似
     let a = 10;
     if a == 10 {
         println!("a == 10");
