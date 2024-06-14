@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  rust:
+    image: rust:latest
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    container_name: rust-dev
+    volumes:
+      - .:/usr/src/
+    working_dir: /usr/src/
+    command: /usr/bin/bash
